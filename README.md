@@ -7,4 +7,14 @@
 - JS code inside this file will be executed both on client and server side
 
 ## CSS
-Styled-jsx is CSS in Javascript though its not recommended, we can have a style tag inside a component and that style will be applied only to that particular component
+### Styled-jsx 
+- Its CSS in Javascript though its not recommended, we can have a style tag inside a component and that style will be applied only to that particular component
+### Global CSS in _app.tsx
+- Import a css file in _app.tsx .
+- This css file will be applied to all the pages. 
+- A css file cannot be imported to any other page or Component
+### CSS only for a component or page
+- To include a css file to a particualr component or a page.
+- You should name the css file as filename.module.css . 
+- And include that as `import style from fileName.module.css
+
