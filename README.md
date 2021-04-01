@@ -18,3 +18,7 @@
 - You should name the css file as filename.module.css . 
 - And include that as `import style from fileName.module.css
 
+# API Folder
+- All files inside api folder should be js or ts files
+- All files should export a function with (req,res) just like express
+- To call a api function call `localhost:3000/api/file-name`
